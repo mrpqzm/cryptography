@@ -1,4 +1,5 @@
 import codecs
+import bs4
 
 def is_hex(s):
     hex_digits = set("0123456789abcdef")
