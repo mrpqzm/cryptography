@@ -19,4 +19,5 @@ b64 = codecs.encode(codecs.decode(hex_string, "hex"), 'base64').decode()
 
 print("Your decoded Hex is: " + str(hexdecoded)[2:])
 
+
 print("Your encoded Base64 is: " + str(b64))
